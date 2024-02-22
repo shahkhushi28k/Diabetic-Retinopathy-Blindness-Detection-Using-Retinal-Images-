@@ -23,6 +23,6 @@ This innovative solution has the potential to improve patient outcomes significa
 
 
 
-**Prototype of Model : **
+**Prototype of Model :**
 
 ![image](https://github.com/shahkhushi28k/Diabetic-Retinopathy-Blindness-Detection-Using-Retinal-Images-/assets/127178469/c87dfec3-2992-4b37-985e-7fda7d011d12)

@@ -1,4 +1,5 @@
-![image](https://github.com/shahkhushi28k/Diabetic-Retinopathy-Blindness-Detection-Using-Retinal-Images-/assets/127178469/30d3380e-e890-4949-8c62-a468df171c55)# Diabetic-Retinopathy-Blindness-Detection-Using-Retinal-Images-
+# Diabetic-Retinopathy-Blindness-Detection-Using-Retinal-Images-AI
+
 
 **Problem Statement :**
 Millions with diabetes risk blindness from Diabetic Retinopathy (DR). 

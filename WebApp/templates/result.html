@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blindness Detection - Result</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #e6c3c3;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 440px;
+            /* top : 300px; */
+        }
+        .container1 {
+            background-color: #e6c3c3;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 50px; /* Add margin to separate boxes */
+    /* width: 40%; Remove fixed width */
+            position: absolute;
+            top: 50px;
+            right: 50px;
+        }
+
+
+        h1 {
+            color: brown; /* Green color for the heading */
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #6c757d; /* Light grey color for the text */
+        }
+
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border:1px solid black;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+
+        th {
+            text-align: center;
+            color: brown;
+            border:1px solid black; /* Green color for the heading */
+        }
+
+        td {
+            text-align: center;
+            color: red;
+            border:1px solid black;
+            font-size: large; /* Light grey color for the text */
+        }
+
+        a {
+            color: white;
+            background-color: brown; /* Green color */
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 1rem; /* Adjust font size */
+            text-decoration: none; /* Remove underline */
+            font-family: Arial, sans-serif; /* Change font family */
+        }
+
+        a:hover {
+            background-color: rgb(135, 34, 34); /* Darker green on hover */
+        }
+        .logo {
+            position: fixed;
+            top: 20px; /* Adjust as needed */
+            left: 50px; /* Adjust as needed */
+            width: 150px; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+            z-index: 999; /* Ensure it's above other elements */
+        }
+
+    </style>
+</head>
+<body>
+    <style>
+        body{
+            
+            /* background-color: #555; */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKsUQiFuY72Dip7ih1PpN_oWEhjhNez2fiw&usqp=CAU');
+            background-size: 1500px;
+            background-position: center;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+    </style>
+
+    <div class="container">
+        <h1 style="font-family: Oswald, Oswald; font-size: 40px; font-weight: bold; color: brown;">Classification Result</h1>
+        <br>
+        <table>
+            <tr>
+                <th>Stage</th>
+                <th>Predicted Class</th>
+            </tr>
+            <tr>
+                <td><b>{{ stage }}</b></td>
+                <td><b>{{ predicted_class }}</b></td>
+            </tr>
+        </table>
+        <br><br>
+        <a href="/">Back to Upload</a>
+    </div>
+    <div class="container1">
+        <!-- <h1>Stages</h1> -->
+        <table>
+            <tr>
+                <th><b>Stages</b></th>
+                <th><b>Classes</b></th>
+            </tr>
+            <!-- Add more rows as needed -->
+            <tr>
+                <td>0</td>
+                <td>No DR</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mild Non Proliferative DR</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Moderate Non Proliferative DR</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Severe Non Proliferative DR</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Proliferative DR</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </div>
+</body>
+</html>

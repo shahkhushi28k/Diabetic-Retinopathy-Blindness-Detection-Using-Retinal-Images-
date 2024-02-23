@@ -6,3 +6,4 @@ numpy
 streamlit_option_menu 
 pandas
 flask
+cv2

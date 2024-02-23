@@ -26,3 +26,16 @@ This innovative solution has the potential to improve patient outcomes significa
 **Prototype of Model :**
 
 ![image](https://github.com/shahkhushi28k/Diabetic-Retinopathy-Blindness-Detection-Using-Retinal-Images-/assets/127178469/c87dfec3-2992-4b37-985e-7fda7d011d12)
+
+
+
+
+#Guidance for executing code: 
+
+1. Download the GitHub repository by clicking "Code" and selecting "Download ZIP." Extract the contents to your computer.
+   
+2. Navigate to the extracted directory in your terminal using cd and install dependencies with pip install -r requirements.txt.
+   
+3. Ensure the provided H5 model is present in the correct location.
+   
+4. Run the Flask application by executing app.py with python app.py or flask run. Access the app in a web browser at the specified address.
